@@ -1,0 +1,8 @@
+{
+  "name": "message-function-app",
+  "version": "1.0.0",
+  "description": "Azure Function to handle messages",
+  "dependencies": {
+    "@azure/data-tables": "13.3.0"
+  }
+}
