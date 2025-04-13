@@ -863,7 +863,7 @@ az acr update -n messageboardregistry --admin-enabled true
 }
 ```
 
-##### 4. Navegar para o diretório web-app
+##### 4. Navegar para o diretório `web-app`
 
 ```bash
 cd web-app
