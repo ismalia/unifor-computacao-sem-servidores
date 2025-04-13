@@ -11,6 +11,7 @@ Repositório dedicado à disciplina **Computação sem servidores**, ministrada 
   - [Cenário escolhido](#cen%C3%A1rio-escolhido)
   - [Objetivo](#objetivo)
   - [Projeto: Message Board](#projeto-message-board)
+    - [💻 URLs](#-urls)
     - [Arquitetura](#arquitetura)
   - [Configuração e deployment](#configura%C3%A7%C3%A3o-e-deployment)
     - [Pré-requisitos](#pr%C3%A9-requisitos)
@@ -64,11 +65,16 @@ Implementar uma aplicação serverless no Microsoft Azure utilizando Azure Funct
 
 ***Message Board*** é uma aplicação serverless construída com Azure Functions, Azure Storage Tables e um Azure Web App feito em React e containerizado com Docker.
 
+#### 💻 URLs
+
+- **Web App**: <https://message-board-web-app.azurewebsites.net>
+- **Function App**: <https://message-board-function-app.azurewebsites.net/api/messages>
+
 #### Arquitetura
 
-- **Azure Web App**: Frontend React que exibe as mensagens e permite criar novas.
-- **Azure Function App**: Função HTTP que recebe e armazena mensagens em um Azure Storage Table.
-- **Azure Storage Table**: Armazena as mensagens.
+- *Azure Web App*: Frontend React + Vite que exibe as mensagens e permite criar novas.
+- *Azure Function App*: Função HTTP que recebe e armazena mensagens em um Azure Storage Table.
+- *Azure Storage Table*: Armazena as mensagens.
 
 ### Configuração e deployment
 
