@@ -31,7 +31,7 @@ Repositório dedicado à disciplina **Computação sem servidores**, ministrada 
       - [1. Criar um Azure Container Registry](#1-criar-um-azure-container-registry)
       - [2. Fazer login no registry](#2-fazer-login-no-registry)
       - [3. Habilita admin no registry](#3-habilita-admin-no-registry)
-      - [4. Navegar para o diretório web-app](#4-navegar-para-o-diret%C3%B3rio-web-app)
+      - [4. Navegar para o diretório `web-app`](#4-navegar-para-o-diret%C3%B3rio-web-app)
       - [5. Criar arquivo `.env` com a variável de ambiente `VITE_API_URL`](#5-criar-arquivo-env-com-a-vari%C3%A1vel-de-ambiente-vite_api_url)
       - [6. Adicionar a URL do Function App ao `proxy_pass` no `nginx.conf`](#6-adicionar-a-url-do-function-app-ao-proxy_pass-no-nginxconf)
       - [7. Criar a imagem Docker](#7-criar-a-imagem-docker)
